@@ -32,5 +32,5 @@ myMap.get("apple")
 - Maps possuem a propriedade length;
 - Maps são mais fáceis de iterar;
 - Utilizando quando o valor das chaves é desconhecido;
-- Os valores tem o mesmo tipo. 
+- Os valores tem o mesmo tipo. */
 
