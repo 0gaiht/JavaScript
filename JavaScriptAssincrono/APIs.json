@@ -1,0 +1,33 @@
+
+
+
+/*___________________[ APIs ]_________________
+
+________Application Programming Interface________
+
+ - Uma API é uma forma de intermediar os resultados 
+ do vabck-end com o que é apresentado no front-end. 
+
+ - Você consegue acessá-las por meio de URLs. 
+
+
+ ______[ JSON: JavaScript Object Notation ]_________
+
+  - É muito comum que AOPIs retornem seus dados no 
+  formato .json, portanto precisamos tratar esses dados 
+  quando os recebermos. */
+
+
+  {
+      "description": "schema POST bank",
+      "type": "object",
+      "properties": {
+          "id": {
+              "type": "number",
+              "minimum": 0
+          },
+          "code": {
+          "type": "string"
+          }
+      }
+  }
